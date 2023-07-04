@@ -5,15 +5,18 @@ package kampus;
 public class Dosen {
      private String nidn;
   private String nama;
-  private String mataKuliah;
+  private String matakuliah;
+    private String Nidn;
+    private String MataKuliah;
   
-  public Mahasiswa(String nidn, String nama, String mataKuliah) {
+  public Dosen (String nidn, String nama, String matakuliah) {
         this.nidn= nidn;
         this.nama = nama;
-        this.mataKuliah = mataKuliah;
+        this.matakuliah = matakuliah;
 }
     public String setDetail(){
-        return nidn + nama + mataKuiah;
+         String matakuiah = null;
+        return nidn + nama + matakuiah;
     }
 
     public String getNidn() {
@@ -32,6 +35,7 @@ public class Dosen {
     }
     
     public String getMataKuliah() {
+         String MataKuliah = null;
         return MataKuliah;
     }
     
